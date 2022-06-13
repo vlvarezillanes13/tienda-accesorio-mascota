@@ -1,0 +1,45 @@
+:root{
+    --primario : #FFFFFF;
+    --secundario: #F9F6F7;
+    --terciario : #46B193;
+    --cuarto: #F75A61;
+}
+
+nav.navbar{
+    background-color: var(--secundario);
+    padding: 10px;
+}
+
+
+div.portada{
+    position: relative;
+}
+
+div.portada-imagen{
+    height: 500px;
+    width: 100vw;
+}
+
+div.portada-imagen img{
+    height: 100%;
+    width: 100%;
+}
+
+div.portada-titulos{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+div.portada-titulos{
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+}
+
+div.portada-titulos > h1{
+    font-size: 70px;
+}
+
+div.portada-titulos > h2{
+    font-size: 30px;
+}
