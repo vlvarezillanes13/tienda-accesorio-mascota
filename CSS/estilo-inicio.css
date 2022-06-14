@@ -5,19 +5,19 @@
     --cuarto: #F75A61;
 }
 
+/* NAVBAR */
 nav.navbar{
     background-color: var(--secundario);
     padding: 10px;
 }
 
-
+/* PORTADA */
 div.portada{
     position: relative;
 }
 
 div.portada-imagen{
-    height: 500px;
-    width: 100vw;
+    height: 400px;
 }
 
 div.portada-imagen img{
@@ -43,3 +43,31 @@ div.portada-titulos > h1{
 div.portada-titulos > h2{
     font-size: 30px;
 }
+
+/* PRODUCTOS */
+
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px 0;
+}
+
+.productos-top{
+    margin: 15px 0;
+}
+
+.card-title{
+    font-size: 15px;
+} 
+
+:is(.card-text, .card-text, .precio,.btn-comprar){
+    text-align: center;
+}
+
+.btn-comprar{
+    margin: 0;
+}
+
+/* PIE DE PAGINA */
