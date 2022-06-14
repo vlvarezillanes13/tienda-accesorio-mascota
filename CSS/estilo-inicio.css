@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap');
+
+
 :root{
     --primario : #FFFFFF;
     --secundario: #F9F6F7;
     --terciario : #46B193;
     --cuarto: #F75A61;
+    --quinto:#ff7310d4;
 }
+
+
 
 /* NAVBAR */
 nav.navbar{
-    background-color: var(--secundario);
+    background-color: var(--quinto);
     padding: 10px;
 }
 
@@ -48,26 +54,60 @@ div.portada-titulos > h2{
 
 .titulo{
     text-align: center;
+    text-transform: uppercase;
     font-size: 45px;
-    text-decoration: underline;
     font-family: "Times New Roman", Times, serif;
     margin: 20px 0;
 }
 
 .productos-top{
     margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.card{
+    margin-top: 10px;
+}
 .card-title{
     font-size: 15px;
 } 
 
-:is(.card-text, .card-text, .precio,.btn-comprar){
+:is(h5.card-title, p.card-text, .precio,.btn-comprar){
     text-align: center;
 }
 
+.precio{
+    color: var(--cuarto);
+}
 .btn-comprar{
     margin: 0;
 }
 
 /* PIE DE PAGINA */
+
+footer{
+    background-color: var(--quinto);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-titulo{
+    margin: 15px;
+    color: var(--primario);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-contenido{
+    color: var(--primario);
+    display: flex;
+    flex-direction: column;
+}
+
+p.contenido-info{
+  font-weight: 100;
+}
