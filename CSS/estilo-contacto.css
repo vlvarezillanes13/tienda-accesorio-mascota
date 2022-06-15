@@ -3,11 +3,12 @@
     --secundario: #F9F6F7;
     --terciario : #46B193;
     --cuarto: #F75A61;
+    --quinto:#ff7310d4;
 }
 
 /* NAVBAR */
 nav.navbar{
-    background-color: var(--secundario);
+    background-color: var(--quinto);
     padding: 10px;
 }
 
