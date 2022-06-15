@@ -33,3 +33,31 @@ div.body {
     border-top-right-radius: 0;
 }
   
+.img-login{
+    width: 250px;
+    height: 250px;
+}
+
+.form-floating{
+    margin: 20px;
+}
+
+input.error, textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+label {
+    width: 300px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+  
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
