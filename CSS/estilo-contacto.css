@@ -6,45 +6,6 @@
     --quinto:#ff7310d4;
 }
 
-/* NAVBAR */
-nav.navbar{
-    background-color: var(--quinto);
-    padding: 10px;
-}
-
-/* PORTADA */
-div.portada{
-    position: relative;
-}
-
-div.portada-imagen{
-    height: 400px;
-}
-
-div.portada-imagen img{
-    height: 100%;
-    width: 100%;
-}
-
-div.portada-titulos{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-}
-
-div.portada-titulos{
-    font-family: "Times New Roman", Times, serif;
-    text-transform: uppercase;
-}
-
-div.portada-titulos > h1{
-    font-size: 70px;
-}
-
-div.portada-titulos > h2{
-    font-size: 30px;
-}
-
 /* Formulario*/
 #descripcion{
     resize: none;
@@ -55,5 +16,3 @@ div.portada-titulos > h2{
 	height: 430px;
 	width: 100%;
 }
-
-/* PIE DE PAGINA */

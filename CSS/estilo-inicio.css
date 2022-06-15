@@ -9,14 +9,6 @@
     --quinto:#ff7310d4;
 }
 
-
-
-/* NAVBAR */
-nav.navbar{
-    background-color: var(--quinto);
-    padding: 10px;
-}
-
 /* PORTADA */
 div.portada{
     position: relative;
@@ -83,55 +75,4 @@ div.portada-titulos > h2{
 }
 .btn-comprar{
     margin: 0;
-}
-
-/* PIE DE PAGINA */
-
-footer{
-    background-color: var(--quinto);
-    display: flex;
-    justify-content: space-around;
-}
-
-footer > div{
-    flex: 1;
-}
-
-.footer-titulo{
-    margin: 15px auto;
-    color: var(--primario);
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
-div.footer-contenido{
-   text-align: center; 
-   color: var(--primario);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-p.contenido-info{
-    font-weight: 100;
-}
-
-i{
-    font-size: 30px;  
-}
-
-.fa-facebook{
-    color: blue;
-}
-
-.fa-instagram-square{
-    color: #fff;
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);    
-}
-.fa-tiktok{
-    color: #000;
 }
