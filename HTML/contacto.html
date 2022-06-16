@@ -53,39 +53,40 @@
     <!--CONTENIDO-->
     <div class="container">
       <div class="row mt-3 mb-3">
-            <div class="col-4 me-3"  style="background-color:rgb(255, 255, 255) ;">
-                <h3>Contactanos!</h3>
+            <div class="col-4 me-3">
+              <img class="img-contacto" src="../IMG/contacto/ct2.jpg" alt="imagen-login">
+              
                 
-                <form class="row mt-4 " method="POST">
+                <form id="form-contacto" class="row mt-4 " method="POST">
                   <div class="col-6 mb-3">
                     <label for="nombre" class="form-label">Nombre *</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
                   </div>
                   <div class="col-6 mb-3">
                     <label for="apellido" class="form-label">Apellido *</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    <input type="text" class="form-control" name ="apellido" id="apellido" placeholder="Apellido">
                   </div>
                   <div class="mb-3">
                     <label for="emailinput" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+                    <input type="email" class="form-control" name="emailinput" id="emailinput" placeholder="name@example.com">
                   </div>          
                   <div class="col-12 mb-3">
                     <label for="asunto" class="form-label">Asunto </label>
-                    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                    <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto">
                   </div>                              
                   <div class="mb-3">
                     <label for="descripcion" class="form-label">Descripcion</label>
-                    <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                    <textarea class="form-control" name="descripcion" id="descripcion" rows="3"></textarea>
                   </div>
                   <div>
-                    <button type="button" class="btn btn-primary mb-3">Enviar</button>
+                    <input class="btn btn-primary mb-3" type="submit" value="Enviar">
                   </div>
 
 
                 </form>
               </div>
-              <div class="col-7" style="background-color:rgb(255, 255, 255) ;">
-                <h1>api mapa</h1>
+              <div class="col-7">
+                <h1></h1>
                 <div class="mb-3" id="map"> </div>
               </div>            
       </div>     
@@ -154,11 +155,16 @@
 
     <!-- JS BOOSTRAP -->
     <script src="../bootstrap/js/bootstrap.min.js"></script>    
+    
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    
+    <!--Api-->
     <script src="../JS/mapi.js"></script> 
-    <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap">
-    </script>
-        
-    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+     
+    <!--js validador-->
+    <script src="../JS/contacto.js"></script>
 </body>
 </html>
