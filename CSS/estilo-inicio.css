@@ -61,7 +61,15 @@ div.portada-titulos > h2{
 
 .card{
     margin-top: 10px;
+    overflow: hidden; 
 }
+.card-img-top{
+    transition: transform .5s ease;
+}
+.card-img-top:hover{
+    transform:scale(1.3);
+}
+
 .card-title{
     font-size: 15px;
 } 
