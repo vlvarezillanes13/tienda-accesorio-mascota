@@ -25,7 +25,7 @@ $(document).ready(function() {
         },
         messages:{
             nombre:{
-                required:"Debe ingresar su apellido",
+                required:"Debe ingresar su nombre",
                 minlength:"Debe tener como minimo 2 caracteres"
             },
             apellido:{

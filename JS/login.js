@@ -13,11 +13,11 @@ $(document).ready(function() {
         },
         messages:{
             correo:{
-                required:"Debe ingresar un correo!",
+                required:"Debe ingresar un correo",
                 email:"Debe ingresar un correo valido!"
             },
             contraseña:{
-                required:"Debe ingresar una contraseña!",
+                required:"Debe ingresar una contraseña",
                 minlength:"Contraseña invalida!"
             }
         }
