@@ -58,7 +58,9 @@ div.portada-titulos > h2{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.card-center{
+    margin: 0 auto;
+}
 .card{
     margin-top: 10px;
     overflow: hidden; 
