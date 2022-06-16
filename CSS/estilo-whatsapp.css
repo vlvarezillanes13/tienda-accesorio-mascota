@@ -9,6 +9,7 @@
     bottom: 20px;
     right: 20px;
     z-index: 3;
+    transition: transform .5s ease;
 }
 
 .box-whatsApp i {
