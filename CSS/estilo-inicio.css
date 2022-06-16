@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap');
 
-<<<<<<< HEAD
 body{
     background: rgb(239, 193, 118);
 }
 
-=======
->>>>>>> 79db3e9ada2f44838401f1798b2ead9ce12d1b5a
 :root{
     --primario : #FFFFFF;
     --secundario: #F9F6F7;
