@@ -89,3 +89,12 @@ div.portada-titulos > h2{
 .btn-comprar{
     margin: 0;
 }
+
+.btn-success{
+    width: 200px;
+    height: 40px;
+}
+
+.fa-cart-shopping{
+    font-size: inherit;
+}
