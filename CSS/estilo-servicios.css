@@ -2,6 +2,14 @@ body{
     background: rgb(239, 193, 118);
 }
 
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px 0;
+}
+
 .carousel-caption{
     background: rgba(239, 193, 118, 0.5);
     border-radius:20px ;
@@ -28,14 +36,46 @@ body{
     
 }
 
-.carousel-item{
-
-    
-
-}
-
 .carousel-item img{
     width: 100%;
     height: 500px;
    
+}
+
+.card-trabajador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-trabajador > .img-trabajador{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    padding: 20px;
+    
+}
+
+.info{
+    padding: 20px;
+    border: 3px dashed #fefefe;
+}
+
+.info-nombre{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info-correo{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-control{
+    display: flex;
+    justify-content: space-around;
 }
