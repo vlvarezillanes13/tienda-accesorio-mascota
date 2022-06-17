@@ -7,7 +7,7 @@ $(document).ready(function () {
         dataType: 'json',
         success: function (response) {
             response.data.forEach((persona, index) => {
-                console.log(index, persona)
+                //console.log(index, persona)
                 if (index == 0) {
                     $("#carrusel-items").append(
                         `<div class="carousel-item active">
