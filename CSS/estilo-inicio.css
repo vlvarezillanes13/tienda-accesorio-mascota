@@ -65,8 +65,9 @@ div.portada-titulos > h2{
     margin: 0 auto;
 }
 .card{
-    margin-top: 10px;
+    margin-top: 12px;
     overflow: hidden; 
+    min-height: 480px;
 }
 .card-img-top{
     transition: transform .5s ease;
