@@ -4,7 +4,7 @@ $(document).ready(function() {
         function(){
             $(this).append(" <i class='fa-solid fa-cart-shopping'></i>");
         },function(){
-            $(".fa-solid").remove();
+            $(".fa-cart-shopping").remove();
         }
     );
        
