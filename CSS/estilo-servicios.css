@@ -108,4 +108,8 @@ body{
     outline: rgb(255, 115, 16) solid 3px;
 }
 
+h3, h6{
+    text-decoration: underline;
+
+}
 /**Servicios**/
