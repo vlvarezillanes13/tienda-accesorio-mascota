@@ -81,3 +81,30 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+/**Servicios**/
+
+.cont-text{
+    padding: 10px;
+    
+    margin-bottom: 10px;
+
+}
+
+.cont-img{
+    padding: 20px;
+    
+}
+.cont-img img{
+    border-radius: 50%;
+    width: 500px;
+}
+
+#terms{
+    font-size:small;
+}
+.cajita{
+    outline: rgb(255, 115, 16) solid 3px;
+}
+
+/**Servicios**/
