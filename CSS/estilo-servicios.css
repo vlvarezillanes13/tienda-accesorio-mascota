@@ -102,6 +102,7 @@ body{
 
 #terms{
     font-size:small;
+    font-weight: bold;
 }
 .cajita{
     outline: rgb(255, 115, 16) solid 3px;
